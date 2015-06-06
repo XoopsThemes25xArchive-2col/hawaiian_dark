@@ -1,0 +1,215 @@
+/* CSS Document */
+
+body {
+	background-color:#2b1c27;
+	background-position:center;
+	background-attachment:fixed;
+	background-image:url(images/dbl-border.jpg);
+	background-repeat:repeat-y;
+}
+
+body td, p, div {
+  font-family: verdana, arial, helvetica; 
+  font-size: 11px;
+  color: #000000;
+}
+
+.tableMain {
+	background-color:#ecdfcf;
+	border-color:#554952;
+	border-style:solid;
+	border-width:thick;
+	width:753px;
+}
+
+td#titlecolumn {
+	border-bottom-color:#554952;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+
+td#maincolumn {	
+	background-color:#f9f2ea;	
+	width:613px;
+	padding:10px;
+	margin:10px;
+}
+
+td#maincolumn a:link {
+	color:#000000; 
+  	text-decoration: none;
+}
+
+td#maincolumn a:active {
+  	color:#000000; 
+  	text-decoration: none;
+}
+
+td#maincolumn a:visited {
+  	color:#000000; 
+  	text-decoration: none;
+}
+
+td#maincolumn a:hover {
+  	color: #947b5c; 
+  	text-decoration: none;
+}
+
+td#maincolumn .blockTitle {
+	background-color:#CCCCCC;
+	border-color:#554952;
+	border-style:solid;
+	border-width:thin;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	font-weight:bold;
+	text-align:left;
+	
+	
+}
+
+td#maincolumn .blockContent {
+  	background-color:#ecdfcf;
+	background-image:url(images/mainbackground.jpg);
+	background-position:center;
+	background-attachment:fixed;
+	border-color:#554952;
+	border-style:solid;
+	border-width:thin;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	text-align:left;  
+  	color: #214732; 
+}
+
+td#maincolumn .blockContent a:link {
+	color:#000000; 
+  	text-decoration: none;
+}
+
+td#maincolumn .blockContent a:active {
+  	color:#000000; 
+  	text-decoration: none;
+}
+
+td#maincolumn .blockContent a:visited {
+  	color:#000000; 
+  	text-decoration: none;
+}
+
+td#maincolumn .blockContent a:hover {
+  	color: #947b5c; 
+  	text-decoration: none;
+}
+
+td#leftcolumn {
+	width:140px;
+	background-color:#ecdfcf;	
+	border-right-width:thin;
+	border-right-color:#554952;
+	border-right-style:solid;
+}
+
+td#leftcolumn .blockTitle {
+	background-image:url(images/mini-tiki-bar.gif);
+	background-repeat:no-repeat;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left:25px;
+	font-weight:bold;
+	text-align:left;
+	
+	
+}
+
+td#leftcolumn .blockContent {
+  	padding-left: 5px;  
+  	line-height: 120%;
+  	margin-bottom:8px; 
+  	border:0px;  
+  	color: #214732; 
+	text-align:left;
+}
+
+td#leftcolumn .blockContent a:link {
+  color: #214732; 
+  text-decoration: none;
+}
+
+td#leftcolumn .blockContent a:active {
+  color: #214732; 
+  text-decoration: none;
+}
+
+td#leftcolumn .blockContent a:visited {
+  color: #214732; 
+  text-decoration: none;
+}
+
+td#leftcolumn .blockContent a:hover {
+  color: #947b5c; 
+  text-decoration: none;
+}
+
+td#footercolumn {
+	background-color:#2b1c27;
+	text-align:center;
+	font-size:10px;
+	font-style:italic;
+	color:#FFFFFF;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+img {
+	border: 0;
+}
+
+div#content { 
+  text-align: left; 
+  padding: 2px 10px 1px 10px;
+  margin: 10px;
+  margin-right:20px;
+  overflow: visible;
+}
+
+div#content input {
+  background-color: #A6B2DD; 
+  border-color: #CBCBCB; 
+  color: #FFFFFF; 
+  font-family: verdana,  arial, ms sans serif;  
+  font-size: 10pt;
+}
+
+div#content textarea {
+	
+}
+
+td#content { 
+  text-align: left; 
+  width:100%;
+  padding: 2px 10px 1px 10px;
+  margin: 2px 10px 1px 10px;
+  overflow: visible;
+}
+
+td#content input {
+  background-color: #A6B2DD; 
+  border-color: #CBCBCB; 
+  color: #FFFFFF; 
+  font-family: verdana,  arial, ms sans serif;  
+  font-size: 10pt;
+}
+
+td#content textarea {
+	
+}
+
